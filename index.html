@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Southwest Airlines | Airline Tickets and Low Fares</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header-top">
+      <div class="header-controls">
+        <p class="login-text"><em>Log in to view points balance</em></p>
+        <div class="auth-buttons">
+          <button class="btn login-btn" type="button">
+            <div class="icon">
+              <svg aria-label="Passenger" height="16px" role="img" viewBox="0 0 168 172">
+                <path d="M131.724,50.708c0,29.359-20.657,55.619-46.102,55.619c-25.464,0-46.109-26.26-46.109-55.619 C39.513,21.35,60.158,0,85.622,0C111.066,0,131.724,21.35,131.724,50.708z"></path>
+                <path d="M137.888,105.574c-3.963-1.438-13.046-4.252-13.046-4.252c-15.41,14.241-39.403,26.63-39.403,26.63 s-26.526-13.803-40.114-27.55c0,0-10.206,3.423-15.012,5.172C5.301,114.715,0,131.309,0,137.658c0,6.337,0.999,12.146,0.999,12.146 s27.907,22.273,84.661,22.273c56.741,0,81.507-22.273,81.507-22.273s1.004-5.809,1.004-12.146 C168.171,131.309,162.858,114.715,137.888,105.574z"></path>
+              </svg>
+            </div>
+            Log in
+          </button>
+          <a class="link-blue" href="/loyalty/enroll/">Create account</a>
+          <button class="language-switcher" type="button">
+            Español
+            <div class="icon">
+              <svg aria-label="Global" height="18px" role="img" viewBox="0 0 150 150">
+                <path d="M89.412,1.852c-0.129-0.104-0.24-0.191-0.277-0.229l-0.141,0.158c-4.539-0.863-9.219-1.318-14.009-1.318 s-9.47,0.455-14.019,1.318l-0.139-0.158c-0.039,0.037-0.148,0.125-0.27,0.229C26.049,8.588,0,38.963,0,75.441 c0,41.402,33.568,74.973,74.985,74.973c41.404,0,74.974-33.57,74.974-74.973C149.959,38.963,123.918,8.588,89.412,1.852z M134.205,50.625h-20.182c-2.75-14.66-7.678-25.734-12.441-33.617C116.232,23.707,127.957,35.744,134.205,50.625z M139.209,75.441 c0,4.613-0.502,9.105-1.439,13.451h-22.205c0.426-4.326,0.659-8.914,0.659-13.756c0-4.852-0.233-9.418-0.659-13.752h22.068 C138.652,65.914,139.209,70.609,139.209,75.441z M80.359,139.42V99.648h22.662c-4.873,23.137-15.605,35.639-19.355,39.41 C82.57,139.207,81.467,139.324,80.359,139.42z M66.306,139.059c-3.76-3.771-14.483-16.273-19.358-39.41h22.653v39.771 C68.486,139.324,67.4,139.207,66.306,139.059z M10.76,75.441c0-4.832,0.551-9.527,1.57-14.057h22.067 c-0.419,4.334-0.661,8.9-0.661,13.752c0,4.842,0.242,9.43,0.661,13.756H12.191C11.264,84.547,10.76,80.055,10.76,75.441z M44.488,75.137c0-4.889,0.288-9.451,0.753-13.752h24.359v27.508H45.241C44.776,84.592,44.488,80.033,44.488,75.137z M69.601,11.445 v39.18H46.947c4.605-21.9,14.475-34.268,18.699-38.734C66.946,11.703,68.271,11.57,69.601,11.445z M84.325,11.891 c4.224,4.467,14.083,16.834,18.696,38.734H80.359v-39.18C81.698,11.57,83.016,11.703,84.325,11.891z M80.359,88.893V61.385h24.361 c0.474,4.301,0.752,8.863,0.752,13.752c0,4.896-0.278,9.455-0.752,13.756H80.359z M48.377,17.008 c-4.76,7.883-9.693,18.957-12.429,33.617H15.746C22.012,35.744,33.729,23.707,48.377,17.008z M15.514,99.648h20.435 c2.841,15.201,8.029,26.525,12.93,34.449C33.793,127.35,21.771,114.982,15.514,99.648z M101.07,134.098 c4.914-7.924,10.111-19.248,12.953-34.449h20.424C128.182,114.982,116.148,127.35,101.07,134.098z"></path>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <a aria-label="Southwest" class="logo" href="/">
+        <img alt="Southwest" src="https://www.southwest.com/swa-resources/images/globalnav/logos/swa_logo_dark.svg" width="223" height="34">
+      </a>
+      <nav class="main-navigation">
+        <button class="nav-item" type="button">Flight | Hotel | Car | Vacations | Cruises</button>
+        <button class="nav-item" type="button">Special Offers</button>
+        <button class="nav-item" type="button">Rapid rewards<sup>®</sup></button>
+        <button class="nav-item icon-only" type="button">
+          <svg aria-label="alert" height="22px" role="img" viewBox="4 4 24 24">
+            <path d="M16,24.9c-.95,0-2.21,0-3.1,0v0a3.1,3.1,0,0,0,6.2,0v-.06c-1.09,0-1.9.06-3.1.06"></path>
+            <path d="M23.54,16.21C22.88,9.58,22.37,7,18.08,5.52,16.55,5,17.33,4,16,4s-.56,1-2.1,1.53C9.6,7,9,9.63,8.36,16.24c-.45,4.45-2.44,2.07-2.47,4.85,0,2,4.46,2.35,10.11,2.34s10.09-.35,10.11-2.38c0-2.78-2.11-.26-2.57-4.84"></path>
+            <circle r="5" cx="23" cy="9" fill="#d5152e"></circle>
+          </svg>
+        </button>
+        <button class="nav-item icon-only" type="button">
+          <svg aria-label="search" height="22px" role="img" viewBox="0 0 32 32">
+            <path d="M 2,13  a 11,11 0 1 1 22,0  a 11,11 0 1 1 -22,0" fill="none" stroke-width="4"></path>
+            <path d="M22,22 L28,28" fill="none" stroke-linecap="round" stroke-width="6"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+
+    <div class="promo-banner">
+      <img alt="wifi icon" src="https://www.southwest.com/swa-resources/images/icons/FreeWiFi-IMG-20x17-Magenta.png">
+      <span>Free WiFi for Rapid Rewards<sup>®</sup> Members on flights starting 10/24/25 thanks to T-Mobile<sup>®</sup>.</span>
+      <a href="#" class="link-blue">Learn More</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero-bg">
+  <div class="hero container">
+    <section class="card booking-card">
+      <div class="tabs">
+        <button class="tab active"><span class="badge">NEW!</span>Flights</button>
+        <button class="tab">Vacations</button>
+        <button class="tab">Hotels</button>
+        <button class="tab">Cars</button>
+        <button class="tab">Cruises</button>
+      </div>
+
+      <form id="searchForm" class="form">
+        <div class="form-header">
+          <span class="text-gray">*Required fields</span>
+          <span class="text-blue">Now accepting reservations through August 03, 2026. ℹ️</span>
+        </div>
+
+        <div class="form-row">
+          <label>Trip type<select name="trip"><option>Round-trip</option><option>One-way</option></select></label>
+          <label>Recent searches<select name="recent"><option>Select search</option></select></label>
+        </div>
+
+        <div class="form-row">
+          <label>Depart*<input name="from" value="PHL"><small>Philadelphia, PA - PHL</small></label>
+          <button class="swap-btn" type="button">
+            <svg height="22.5" viewBox="0 0 36 36">
+              <polygon points="25.5,20.8 14.4,20.8 14.4,16.8 7.9,22.6 14.4,28.4 14.4,24.7 25.5,24.7"></polygon>
+              <polygon points="9.3,15.4 20.4,15.4 20.4,19.4 26.8,13.5 20.4,7.7 20.4,11.5 9.3,11.5"></polygon>
+              <path d="M17.6,31.3c-7.6,0-13.7-6.1-13.7-13.7S10,3.9,17.6,3.9s13.7,6.2,13.7,13.7C31.3,25.2,25.2,31.3,17.6,31.3 M17.6,0C7.9,0,0,7.9,0,17.6s7.9,17.6,17.6,17.6s17.6-7.9,17.6-17.6S27.4,0,17.6,0"></path>
+            </svg>
+          </button>
+          <label>Arrive*<input name="to" placeholder="Destination"><small>&nbsp;</small></label>
+        </div>
+
+        <div class="form-row">
+          <label>Depart date*<input name="depart" type="date" value="2025-10-12"><small>Sun, Oct 12, 2025</small></label>
+          <label>Return date*<input name="return" type="date" value="2025-10-15"><small>Wed, Oct 15, 2025</small></label>
+          <label>Passengers*<select name="pax"><option>1</option><option>2</option><option>3</option></select><small>&nbsp;</small></label>
+        </div>
+
+        <div class="form-row">
+          <label>Promo code<input name="promo" placeholder="Optional"><small>&nbsp;</small></label>
+        </div>
+
+        <div class="form-options">
+          <label class="checkbox"><input type="checkbox" name="points">Show fares in points</label>
+          <label class="checkbox"><input type="checkbox" name="calendar">Search with low fare calendar</label>
+        </div>
+
+        <button type="submit" class="btn btn-yellow btn-large">Search flights</button>
+
+        <div class="links">
+          <a href="#" class="link-blue small">Updated checked baggage policies Baggage and optional fees</a>
+        </div>
+      </form>
+    </section>
+
+    <div class=" promo-card">
+      <div class="promo-content">
+        <h3 class="promo-title">Earn <span class="promo-text text-red">50,000</span> points.</h3>
+        <p class="text-blue promo-text">Plus, <strong>first checked bag free</strong>.</p>
+        <p class="text-small promo-text">Terms apply.</p>
+        <a href="#" class="btn btn-yellow ">Learn more</a>
+      </div>
+      <img alt="Credit Card" src="https://www.southwest.com/swa-resources/images/chase-cards/card_swa_plus_bob_175.png">
+    </div>
+  </div>
+</div>
+
+<div class="nav-bar">
+  <div class="container">
+    <a href="#"><svg height="20" viewBox="1 4 36 36.5"><polygon points="25.6,16.4 17.5,24.5 14.1,21.2 11.3,24 17.5,30.2 28.6,19.3 	"></polygon><path d="M18.9,36.2c-7.6,0-13.7-6.1-13.7-13.7S11.3,8.8,18.9,8.8S32.6,15,32.6,22.5C32.6,30.1,26.5,36.2,18.9,36.2 M18.9,4.9c-9.7,0-17.6,7.9-17.6,17.6s7.9,17.6,17.6,17.6s17.6-7.9,17.6-17.6S28.7,4.9,18.9,4.9"></path></svg>Check in</a>
+    <span>|</span>
+    <a href="#"><svg height="20" viewBox="0 0 36 36"><path d="M17.6,31.3c-7.6,0-13.7-6.1-13.7-13.7c0-7.6,6.1-13.7,13.7-13.7c7.6,0,13.7,6.2,13.7,13.7 C31.3,25.2,25.2,31.3,17.6,31.3 M17.6,0C7.9,0,0,7.9,0,17.6c0,9.7,7.9,17.6,17.6,17.6c9.7,0,17.6-7.9,17.6-17.6 C35.2,7.9,27.4,0,17.6,0"></path><polygon points="25.3,21.2 19.7,16.4 19.7,7.7 15.6,7.7 15.6,18.3 22.7,24.4"></polygon></svg>Flight status</a>
+    <span>|</span>
+    <a href="#"><svg height="20" viewBox="0 0 36 36"><polygon points="25.5,20.8 25.5,20.8 14.4,20.8 14.4,16.8 7.9,22.6 14.4,28.4 14.4,24.7 25.5,24.7"></polygon><polygon points="9.3,15.4 9.3,15.4 20.4,15.4 20.4,19.4 26.8,13.5 20.4,7.7 20.4,11.5 9.3,11.5 9.3,11.5"></polygon><path d="M17.6,31.3c-7.6,0-13.7-6.1-13.7-13.7S10,3.9,17.6,3.9s13.7,6.2,13.7,13.7C31.3,25.2,25.2,31.3,17.6,31.3 M17.6,0C7.9,0,0,7.9,0,17.6s7.9,17.6,17.6,17.6s17.6-7.9,17.6-17.6S27.4,0,17.6,0"></path></svg>Manage trip</a>
+  </div>
+</div>
+
+<main>
+  
+
+  <section class="section grid-section">
+    <div class="grid">
+      <div class="card">
+        <img alt="Credit Card Promo" class="full-image" src="https://www.southwest.com/swa-resources/images/offers/sp-offers-wave-2b-image-647x320.jpg">
+        <div class="card-content">
+          <h3 class="promo-title">Earn <span class="text-red">50,000</span> points.</h3>
+          <p class="text-blue">Plus, <strong>first checked bag free</strong>.</p>
+          <p class="text-small">Terms apply.</p>
+          <a href="#" class="btn btn-yellow">Learn more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img alt="Calendar" class="full-image" src="https://www.southwest.com/swa-resources/images/responsive/homepage/sp_offer/CB1205103-ScheduleAnnouncement-Calendar.png">
+        <div class="card-content">
+          <h3>Our schedule is now open through August 3, 2026.</h3>
+          <p>Ready, set, start your summer vacay planning NOW.</p>
+          <button class="btn btn-yellow">Book now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section wifi-section">
+    <img src="https://www.southwest.com/swa-resources/images/responsive/ImageOverlay-IMG-dsktpL-wifi.jpg" alt="WiFi background" class="bg-image">
+    <div class="overlay-card">
+      <h3>Announcing <i>FREE</i> WiFi</h3>
+      <p>starting 10/24/25 for Rapid Rewards<sup>®</sup> Members* thanks to <img src="https://www.southwest.com/swa-resources/images/responsive/t-mobile-logo-pink.png" alt="T-Mobile" style="width: 20%; vertical-align: middle;">.</p>
+      <button class="btn btn-yellow">Not a Member? Sign up</button>
+      <p class="disclaimer">*Available on WiFi-enabled designated aircraft.</p>
+    </div>
+  </section>
+
+<section class="section anchorage-two-col">
+  <div class="anchorage-inner container">
+    <div class="anchorage-image" aria-hidden="true">
+      <img src="https://www.southwest.com/swa-resources/images/responsive/homepage/sp_offer/SpOffer_996x560_Moose_20251009.jpg"
+           alt="Whale tail and Alaska mountains">
+    </div>
+
+    <div class="anchorage-content card" role="region" aria-labelledby="anchorage-title">
+      <div class="anchorage-content-inner">
+        <h3 id="anchorage-title">Anchorage away!</h3>
+        <p>Our coolest destination yet. Service to Alaska starts</p>
+        <p> May 15, 2026.</p>
+        <a href="#" class="btn btn-yellow" role="button">Book now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="section carousel-section">
+    <h2>Bundle and save with new Getaways by Southwest<sup>™</sup></h2>
+    <div class="carousel-container"></div>
+    <div class="carousel-nav"></div>
+    <div class="carousel-cta">
+      <a class="btn btn-outline" href="#">See more featured deals</a>
+    </div>
+  </section>
+
+  <section class="section disclaimer-section">
+    <p>Prices displayed have been collected within the last 6 hours and may no longer be available at time of booking. Modifying dates, room types, hotel, or other changes may result in a different price. To find the most updated price, please click the Explore package button. Additional fees and charges for optional products and services may apply.</p>
+  </section>
+
+  <section class="section offers-section">
+    <h2>Special Offers</h2>
+    <div class="grid offers-grid">
+      <div class="card offer-card">
+        <img src="https://www.southwest.com/swa-resources/images/responsive/homepage/sp_offer/rhp-swav-specialoffers-image-996x560.jpg" alt="Vacation" class="full-image">
+        <div class="tag">VACATIONS</div>
+        <div class="card-content">
+          <h3>Book a vacation.</h3>
+          <p>Bundle Southwest<sup>®</sup> flight + hotel to save big on your next vacation.</p>
+          <a class="btn btn-yellow" href="#">Explore vacations</a>
+        </div>
+      </div>
+      <div class="card offer-card">
+        <img src="https://www.southwest.com/swa-resources/images/responsive/homepage/sp_offer/RHP-Cars-BAU-SpOffers-IMG.jpg" alt="Car" class="full-image">
+        <div class="tag">CARS</div>
+        <div class="card-content">
+          <h3>Earn up to 2,400 Rapid Rewards<sup>®</sup> points.</h3>
+          <p>Plus save up to 30% off base rates with Budget<sup>®</sup>.</p>
+          <a class="btn btn-yellow" href="#">Search cars</a>
+        </div>
+      </div>
+      <div class="card offer-card">
+        <img src="https://www.southwest.com/swa-resources/images/responsive/homepage/sp_offer/RHP-Hotels-BAU-SpOffers-IMG.jpg" alt="Hotel" class="full-image">
+        <div class="tag">HOTELS</div>
+        <div class="card-content">
+          <h3>Book a hotel.</h3>
+          <p>Earn up to 10,000 points per night on hotel stays.*</p>
+          <p class="text-small">*Terms apply.</p>
+          <a class="btn btn-yellow" href="#">Search hotels</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Need help?</h4>
+        <a href="#" target="_blank" class="help-center-link">Help Center</a>
+      </div>
+      <div class="footer-col">
+        <h4>Subscribe</h4>
+        <div class="subscribe-text">Wanna receive email from us?</div>
+        <a href="#" class="link-yellow">Sign up</a> to get the latest deals.
+      </div>
+      <div class="footer-col">
+        <h4>Connect with us</h4>
+        <div class="social-links">
+          <a href="#" target="_blank"><img alt="Facebook" src="https://www.southwest.com/swa-resources/images/icons/facebook-icon.svg"></a>
+          <a href="#" target="_blank"><img alt="Instagram" src="https://www.southwest.com/swa-resources/images/icons/instagram-icon.svg"></a>
+          <a href="#" target="_blank"><img alt="YouTube" src="https://www.southwest.com/swa-resources/images/icons/youtube-icon.svg"></a>
+          <a href="#" target="_blank"><img alt="LinkedIn" src="https://www.southwest.com/swa-resources/images/icons/linkedin-icon.png"></a>
+          <a href="#" target="_blank"><img alt="Pinterest" src="https://www.southwest.com/swa-resources/images/icons/pinterest-icon.png"></a>
+        </div>
+        <a href="#" target="_blank" class="mobile-link">
+          <svg height="24px" viewBox="0 0 21 43">
+            <path d="M19.167,0.5h-17c-1.033,0-2,0.973-2,2v38c0,1.027,0.761,1.982,1.793,1.982L19.167,42.5c1.033,0,2-0.973,2-2v-38 C21.167,1.473,20.2,0.5,19.167,0.5z M8.167,2.5h5c0.279,0,0.608,0.225,0.608,0.502c0,0.276-0.329,0.498-0.608,0.498h-5 c-0.279,0-0.545-0.211-0.545-0.488C7.621,2.735,7.888,2.5,8.167,2.5z M10.167,40.5c-1.104,0-2-0.896-2-2s0.896-2,2-2s2,0.896,2,2 S11.271,40.5,10.167,40.5z M19.167,35.5h-17v-30h17V35.5z"></path>
+          </svg>
+          Mobile Apps
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-separator"></div>
+
+    <div class="footer-links">
+      <div class="footer-links-col">
+        <h5><a href="#" class="text-blue">About Southwest</a></h5>
+        <ul>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#" target="_blank">Press Room</a></li>
+          <li><a href="#" target="_blank">Investor Relations</a></li>
+          <li><a href="#">Corporate Citizenship</a></li>
+          <li><a href="#" target="_blank">Southwest.fm</a></li>
+          <li><a href="#">Supplier Information</a></li>
+          <li><a href="#" target="_blank">Careers</a></li>
+          <li><a href="#" target="_blank">Code of Conduct</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h5><a href="#" class="text-blue">Flying Southwest</a></h5>
+        <ul>
+          <li><a href="#">Visit Southwest.com</a></li>
+          <li><a href="#">Fly with Southwest</a></li>
+          <li><a href="#">Rapid Rewards<sup>®</sup></a></li>
+          <li><a href="#">International Travel</a></li>
+          <li><a href="#">Airport Information</a></li>
+          <li><a href="#">New Destinations</a></li>
+          <li><a href="#">Explore Destinations</a></li>
+          <li><a href="#">Popular Routes</a></li>
+          <li><a href="#">Tarmac Delay Plan</a></li>
+          <li><a href="#" target="_blank">Contract of Carriage</a></li>
+          <li><a href="#" target="_blank">Customer Service Plan</a></li>
+          <li><a href="#">Flight Schedules</a></li>
+          <li><a href="#">Carbon Offset Program</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h5><a href="#" class="text-blue">Southwest Products</a></h5>
+        <ul>
+          <li><a href="#">Fare Types and Benefits</a></li>
+          <li><a href="#">Change or Upgrade Seats</a></li>
+          <li><a href="#">EarlyBird Check-In<sup>®</sup></a></li>
+          <li><a href="#">Upgrade to Choice Extra</a></li>
+          <li><a href="#">Upgraded Boarding</a></li>
+          <li><a href="#">Southwest<sup>®</sup> gift card</a></li>
+          <li><a href="#" target="_blank">Hotels</a></li>
+          <li><a href="#">Getaways by Southwest<sup>™</sup></a></li>
+          <li><a href="#">Inflight Entertainment & Internet</a></li>
+          <li><a href="#">Drinks & Snacks</a></li>
+          <li><a href="#">Southwest Business</a></li>
+          <li><a href="#" target="_blank">Southwest Cargo</a></li>
+          <li><a href="#" target="_blank">Group Travel</a></li>
+          <li><a href="#">Charter Services</a></li>
+          <li><a href="#" target="_blank">Southwest<sup>®</sup> The Store</a></li>
+          <li><a href="#">Rapid Rewards<sup>®</sup> Credit Card</a></li>
+          <li><a href="#">Book a Rental Car</a></li>
+          <li><a href="#" target="_blank">Southwest Cruises</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h5><a href="#" class="text-blue">Help Center</a></h5>
+        <ul>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Customer Commitments</a></li>
+          <li><a href="#">Baggage Policies</a></li>
+          <li><a href="#">Disability Related Accommodations</a></li>
+          <li><a href="#">Military & Government Travel</a></li>
+          <li><a href="#">Extra Seat Policy</a></li>
+          <li><a href="#">Traveling with Infants</a></li>
+          <li><a href="#">Pet Policy</a></li>
+          <li><a href="#">Travel Funds, Refunds, & Reimbursements</a></li>
+          <li><a href="#">Complete account setup</a></li>
+          <li><a href="#" target="_blank">Lost and Found</a></li>
+          <li><a href="#">Getaways by Southwest<sup>™</sup> FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-legend">
+      <svg height="13px" viewBox="0 0 32 32">
+        <path d="M13,5.5 L4,5.5" stroke-linecap="round" stroke-width="4"></path>
+        <path d="M4,5 L4,28" stroke-linecap="butt" stroke-width="4"></path>
+        <path d="M4,28 L27,28" stroke-linecap="round" stroke-width="4"></path>
+        <path d="M27,28 L27,16" stroke-linecap="butt" stroke-width="4"></path>
+        <path d="M14,4 L17,7 L14,7 L14,5" stroke-linecap="square" stroke-width="1"></path>
+        <path d="M25.5,14 L28,16 L25.5,16 L25.5,14" stroke-linecap="square" stroke-width="1"></path>
+        <path d="M30,2 L30,11 L26.5,8 L15,19 L10.5,19 L24,6 L20.5,2 L30,2" stroke-linecap="square" stroke-width="1"></path>
+      </svg>
+      Indicates external site which may or may not meet accessibility guidelines
+    </div>
+
+    <div class="footer-copyright">
+      © 2025 Southwest Airlines Co. All Rights Reserved. Use of the Southwest websites and our Company Information constitutes acceptance of our <a href="#" target="_blank">Terms and Conditions</a>. <a href="#" target="_blank">Privacy Policy</a> <a href="#" target="_blank">Trademarks</a> <a href="#" target="_blank">Do Not Sell/Share My Personal Information</a>
+    </div>
+
+    <div class="footer-logos">
+      <a href="#"><img alt="Southwest Business" src="https://www.southwest.com/swa-resources/images/globalnav/logos/swa_logo_dark_
+corporate.svg" width="99" height="24"></a>
+      <a href="#"><img alt="Southwest Cargo" src="https://www.southwest.com/swa-resources/images/globalnav/logos/swa_footer_logo_swa_cargo.svg" width="99" height="24"></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
